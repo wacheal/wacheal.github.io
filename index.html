@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Happy Birthday, Wachael ❤️</title>
+<meta name="description" content="A little something, made with love, for Wachael’s birthday.">
+<meta name="theme-color" content="#0e2f25">
+<meta property="og:title" content="Happy Birthday, Wachael ❤️"><meta property="og:description" content="A little something, made with love."><meta property="og:image" content="assets/og.jpg"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎂%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400&family=Figtree:wght@400;600&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head>
+<body>
+<canvas id="fx" aria-hidden="true"></canvas>
+
+<header class="hero">
+  <div class="hero-txt">
+    <h1><span class="w" style="--d:0">Happy</span> <span class="w" style="--d:1">Birthday,</span><br><span class="w name" style="--d:2">Wachael!</span></h1>
+    <a class="cue" href="#letter" aria-label="Scroll to the letter">Scroll down ↓</a>
+  </div>
+  <div class="arch"><img id="heroImg" alt="Wachael smiling in an emerald green blazer" width="1200" height="1800" fetchpriority="high"></div>
+</header>
+
+<section id="letter" class="letter"><div class="book" id="book">
+ <div class="spread">
+  <div class="page l">
+   <p class="ln">First off; Happy birthday fire cracker!!!.</p>
+   <p class="ln">I’ve probably never written an epistle, but I would write one for you!</p>
+   <p class="ln">You are on the very few amazing people that I thank God for every now and then.</p>
+   <p class="ln">You’re kind, smart, beautiful, considerate, and above all, a wonderful friend despite all life has thrown your way. I am happy our paths crossed, and I appreciate you so so much.</p>
+  </div>
+  <div class="rp">
+   <div class="page r">
+    <p class="ln">A new journey starts today for you, God goes with you. Grow in him, blossom in him, and get happy in him. His blessings are sufficient for you this new year.</p>
+    <p class="ln big">HAPPY BIRTHDAY TO YOU, WACHAEL❤️!!</p>
+    <p class="ln big">ENJOY YOUR DAY TO THE FULLEST AND HAVE A BLAST!!!!</p>
+   </div>
+   <button class="cover" id="cover" aria-expanded="false" aria-label="Click to open the birthday book">
+    <span class="face front"><span class="ttl">Happy Birthday</span><span class="nm">Wachael ❤️</span><span class="hint">Click to open</span></span>
+    <span class="face back"></span>
+   </button>
+  </div>
+ </div></div></section>
+
+<section id="carousel" class="car" aria-label="Photo carousel">
+  <img class="bg" id="carBg" alt="">
+  <h2>Look at you.</h2>
+  <div class="stage" id="stage" tabindex="0" aria-roledescription="carousel"></div>
+  <div class="ctrl"><button id="prev" aria-label="Previous photo">‹</button><span id="count">1 / 1</span><button id="next" aria-label="Next photo">›</button><button id="shuf" class="pill">Shuffle</button></div>
+  <div class="bar"><i id="bar"></i></div>
+</section>
+
+<section class="reasons" aria-label="Words for Wachael"><ul id="reasons"></ul></section>
+
+<section class="gal"><h2>Every frame, a smile.</h2><div id="grid" class="grid"></div></section>
+
+<section id="surprise" class="sur">
+  <div id="lock" class="lock"><p class="lk">🔒</p><h2>A surprise is waiting.</h2><p>It opens at midnight.</p><div id="cd" class="cd" aria-live="off"></div></div>
+  <div id="open" class="open" hidden>
+    <h2>Close your eyes. Make a wish.</h2>
+    <div class="cake" id="cake"><i class="flame"></i><i class="candle"></i><b class="t1"></b><b class="t2"></b></div>
+    <button id="wish" class="pill gold">Make a wish</button>
+    <p id="wishMsg" class="wm" hidden>Happy birthday, Wachael ❤️</p>
+  </div>
+</section>
+
+<footer class="end"><p class="fin">ENJOY YOUR DAY TO THE FULLEST AND HAVE A BLAST!!!!</p>
+<p>With Love, Your Supreme Leader</p></footer>
+
+<div id="lb" class="lb" hidden role="dialog" aria-modal="true" aria-label="Photo viewer"><button id="lx" aria-label="Close">✕</button><button id="lp" aria-label="Previous">‹</button><img id="lbImg" alt=""><button id="ln" aria-label="Next">›</button></div>
+<script src="js/main.js"></script>
+</body></html>
